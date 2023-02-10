@@ -8,5 +8,6 @@ To Use:
 * Allow ChatGPT to generate your prompt
 * Copy the prompt into Midjourney
 
+Type help to see a list of available commands
 
 This is very much a work in progress. Have fun!

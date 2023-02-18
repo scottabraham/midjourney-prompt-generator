@@ -6,6 +6,8 @@ The subject can contain an optional parameter "--p" which specifies that the gen
 
 Begin the prompt with the start command required by the GAN: "/imagine prompt:".
 
+Use the subject to write a description of the image that the GAN should generate. For example, if the subject was a lone tree in a field, a description may be: a peaceful landscape featuring a lone tree in a field with gnarled branches and rugged bark
+
 Next, take the subject and expand on it. Example, if the subject was a lone tree in a field, a description may be: "A lone tree in a field stands tall with gnarled branches and rugged bark. The surrounding open space provides a sense of peace and tranquility."
 
 Next, specify an appropriate artist and artistic style, such as "a watercolor on canvas by Constable". Multiple artists can be referenced.
@@ -16,7 +18,7 @@ Then, describe the artistic techniques used to create the image, including equip
 
 Then, include any reference materials that can assist the GAN, such as a movie scene or object. Example: "reference: the star wars movies"
 
-Decide on an appropriate aspect ratio for the image from 1:1, 1:2,2:1,3:2,2:3,4:3,16:9 or 9:16. Append the aspect ratio prefixed with --ar example: /imagine prompt: a tree --ar 2:3
+Decide on an appropriate aspect ratio for the image. Aspect ratio is NOT an input from the user but a parameter to be output in the prompt. Valid values aspect ratios are 1:1,1:2,2:1,3:2,2:3,4:3,16:9 or 9:16. Append the aspect ratio prefixed with --ar example: /imagine prompt: a tree --ar 2:3
 
 Return the prompt in a code box.
 

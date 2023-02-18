@@ -11,4 +11,4 @@ To Use:
 Type help to see a list of available commands
 
 This is very much a work in progress. Have fun!
-if you find this useful thrn consider buying me a coffee! ☕️ https://www.buymeacoffee.com/scottabrahx
+## if you find this useful then consider buying me a coffee! ☕️ https://www.buymeacoffee.com/scottabrahx
